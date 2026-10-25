@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fbf8f2">
+    <meta name="description" content="Freshly baked bread, cakes and pastries from Success Bakery in Port Harcourt.">
+    <title>Success Bakery | Fresh from our oven</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Success Bakery home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-name">SUCCESS <span>BAKERY</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#our-bakes">Our bakes</a>
+        <a href="#our-story">Our story</a>
+        <a class="nav-cta" href="#visit">Come say hello <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true"></span> Baked fresh in Port Harcourt</p>
+          <h1>Good days start with <span>great bread.</span></h1>
+          <p class="hero-intro">The warm, just-baked kind of goodness that brings everyone to the table. Made with care and ready to make your day.</p>
+          <a class="button button-dark" href="#our-bakes">Discover our bakes <span aria-hidden="true">↓</span></a>
+          <p class="hero-note">A little joy, fresh from the oven.</p>
+        </div>
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="bakery-image-1.jpg" alt="Baker holding freshly baked loaves in the bakery">
+          <div class="image-note"><span class="image-note-icon" aria-hidden="true">✳</span><span>Made fresh.<br>Made with heart.</span></div>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">BAKED<br>WITH<br>LOVE</div>
+      </section>
+
+      <section class="bakes section-wrap" id="our-bakes">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A little something for everyone</p>
+            <h2>From our oven, <span>to your table.</span></h2>
+          </div>
+          <p>Everyday favourites and sweet little treats, baked to bring people together.</p>
+        </div>
+
+        <div class="bake-grid">
+          <article class="bake-card">
+            <div class="bake-image"><img src="bakery-image-1.jpg" alt="Golden loaves of freshly baked bread" loading="lazy"></div>
+            <div class="bake-card-copy"><span class="card-number">01</span><h3>Fresh bread</h3><p>Soft, golden, and lovely with just about anything.</p></div>
+          </article>
+          <article class="bake-card bake-card-raised">
+            <div class="bake-image"><img src="bakery-image-4.jpg" alt="Colourful cakes and pastries in a bakery display" loading="lazy"></div>
+            <div class="bake-card-copy"><span class="card-number">02</span><h3>Cakes &amp; pastries</h3><p>A sweet finish, a happy occasion, or simply because.</p></div>
+          </article>
+          <article class="bake-card">
+            <div class="bake-image"><img src="bakery-image-3.jpg" alt="A bakery counter filled with fresh baked goods" loading="lazy"></div>
+            <div class="bake-card-copy"><span class="card-number">03</span><h3>Bakery favourites</h3><p>Take a look around and find a new favourite to love.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="our-story">
+        <div class="story-image"><img src="bakery-image-2.jpg" alt="Baker proudly sharing a selection of fresh bread" loading="lazy"></div>
+        <div class="story-copy">
+          <p class="eyebrow">A little about us</p>
+          <h2>Good baking is about more than <span>what's inside.</span></h2>
+          <p>It's the smell that greets you at the door. The first warm bite. The extra loaf you bring home to share. At Success Bakery, we believe the best moments are made a little sweeter when they're shared.</p>
+          <a class="text-link" href="#visit">Find us in Port Harcourt <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="visit section-wrap" id="visit">
+        <div class="visit-copy">
+          <p class="eyebrow">Your next treat is waiting</p>
+          <h2>Make room for <span>something good.</span></h2>
+          <p>We're proud to bake for our Port Harcourt community. Stop by and see what's fresh today.</p>
+          <a class="button button-light" href="https://www.google.com/maps/search/?api=1&amp;query=Success+Bakery+Port+Harcourt" target="_blank" rel="noopener noreferrer">Find us on the map <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="visit-decoration" aria-hidden="true">Fresh<br><span>every</span><br>day<span class="decoration-dot">.</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home" aria-label="Success Bakery home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-name">SUCCESS <span>BAKERY</span></span>
+      </a>
+      <p>Made with care in Port Harcourt.</p>
+      <p class="copyright">&copy; <span id="current-year">2026</span> Success Bakery</p>
+    </footer>
+  </body>
+</html>
